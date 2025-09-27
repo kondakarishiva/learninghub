@@ -1,0 +1,83 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo a {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #111;
+}
+.logo span {
+  color: #2ecc71; /* green like HackerRank */
+}
+
+/* Menu */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #2ecc71;
+}
+
+/* Buttons */
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.btn-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-outline {
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: transparent;
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+.btn-outline:hover {
+  border-color: #2ecc71;
+  color: #2ecc71;
+}
+
+.btn-black {
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-black:hover {
+  background: #333;
+}
